@@ -60,6 +60,7 @@ p {
    border: black dashed 2px;
    width: 90%;
    gap: 20px;
+   align-items: stretch;
    justify-content: center;
 }
 
@@ -69,5 +70,5 @@ p {
 }
 
 .gallery img:last-child {
-   grid-column: 1 / -1;
+   grid-column: span 3;
  }
